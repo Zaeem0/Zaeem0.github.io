@@ -1,0 +1,75 @@
+
+
+
+@media only screen and (max-width:1023px){
+    body{font-size: 90%;}
+    section{font-size: 80%;}
+    .works-step div,.works-step p{}
+    .works-step p{min-width: 110%;}
+    .works-step div{height: 35px;
+        margin-right: 15px;
+        border: 1px solid #e67e22;
+        padding: 2px;
+    width: 35px;}
+    .works-step{margin-bottom: 30px;}
+    .works-step:last-of-type{margin-bottom:40px;}
+    .app-screen{width: 40%}
+    .section{padding:60px;}
+    .logo{height: 100px;
+        width:auto;
+    margin-top: 28px;}
+    .long-copy{width: 100%;
+    line-height: 120%;
+        text-align: center;
+        margin: 0 ;
+        font-size: 140%;
+    }
+    
+    
+    h3{margin-bottom: 5px;}
+       
+    .section-text{
+    padding-bottom: 50px;}
+    .section-text p {font-size: 110%;}
+    .btn-app img{height: 30px;}
+    .icon-small{width: 15px;}
+    .plan-box{width: 100%;
+    margin-left: 0;}
+    .plan-box div{padding: 8px;}
+    .contact-form{width:  80%;}
+    
+}
+
+
+
+@media only screen and (max-width:767px){
+    body{font-size:60%;}
+    section{padding: 40px 0;}
+    .btn,.btn:link{padding: 6px 18px;}
+    .logo{height: 72px;}
+    .main-nav{display: none;}
+    .section-features{margin-top: 0px;
+    padding-bottom: 0;}
+
+    .section-features .long-copy{margin: 0;}
+    .section-text{padding-top: 10px;}
+    .section-meals{padding: 0;}
+    .section-steps{padding: 40px 0;}
+    
+    .works-step p{margin-bottom: 10px;
+        
+    }
+    .col{min-width: 100%;}
+    
+    .works-step div{margin-right: 4px;
+        height: 22px;
+        width: 22px;
+    padding: 1px;}
+    
+    .steps-box:last-child{margin-top: 20px;}
+}
+
+
+@media only screen and (max-width:480px){
+    
+}
