@@ -1,2 +1,3 @@
 # Zaeem0.github.io
-Flask website
+Omnifood responsive website.
+Created with the help of Jonas Schedtmann's Udemy Course.
