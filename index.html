@@ -5,9 +5,9 @@
         
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css"> 
+        <link rel="stylesheet" type="text/css" href="resources/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/grid.css"> 
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -16,25 +16,26 @@
     <body>
         <header>
             <nav>
-                <div class="row">
+                <div class="row top">
                     <img src="resources/img/logo-white.png" alt="Omnifood" class="logo">
+                    <img src="resources/img/logo.png" alt="Omnifood" class="logo-black">
                         <ul class="main-nav">
-                            <li><a href="#">Food delivery</a></li>
-                            <li><a href="#">How it works</a></li>
-                            <li><a href="#">Our cities</a></li>
-                            <li><a href="#">Sign up</a></li>
+                            <li><a href="#features">Food delivery</a></li>
+                            <li><a href="#works">How it works</a></li>
+                            <li><a href="#cities">Our cities</a></li>
+                            <li><a href="#plans">Sign up</a></li>
                         </ul>
                 </div>
             </nav>
             
             <div class="hero-text-box">
                  <h1>Goodbye junk food.<br> Hello super healthy meals.</h1>
-        <a class="btn btn-full" href="#">I&#39;m hungry</a>
-        <a class="btn btn-ghost" href="#">Show me more</a>
+        <a class="btn btn-full js--scroll-to-plans" href="#">I&#39;m hungry</a>
+        <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
             </div>
         
         </header>
-        <section class="section-features">
+        <section class="section-features js--section-features" id="features">
             <div class="row cleafix">
             <h2>Get food fast &mdash; not fast food</h2>
             <p class="long-copy">Hello, we&#39;re Omnifood, your new premium food delivery service. We know you&#39;re always busy. No time for cooking. So let us take care of that, we&#39;re really good at it, we promise!</p>
@@ -120,7 +121,7 @@
 
             </section>
 
-        <section class="section-steps">
+        <section class="section-steps" id="works">
 
                 <div class="row clearfix">
                 <h2>How it works &mdash; Simple as 1, 2, 3</h2>
@@ -156,7 +157,7 @@
                 </div>
       </section>
 
-        <section class="section-cities">
+        <section class="section-cities" id="cities">
                 <div class="row clearfix">
                 <h2>We're currently in these cities</h2>
                 </div>
@@ -267,7 +268,7 @@
 
         </section>
 
-        <section class="section-plans">
+        <section class="section-plans js--section-plans" id="plans">
 
         <div class="row clearfix">
         <h2>Start eating healthy today</h2>    
@@ -452,17 +453,12 @@
                 </p>
             </div>
         </footer>
-        
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+        <script src="resources/js/script.js"></script>
+        <script src="resources/js/jquery.waypoints.min.js"></script>
     </body>
+    
 </html>
-<!--Title: We're happy to hear from you
-
-Fields to include:
-Name
-Email
-How did you find us?
-Newsletter
-Drop us a line
-
-
-->
