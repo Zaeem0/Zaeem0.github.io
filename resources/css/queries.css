@@ -42,12 +42,43 @@
 
 
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:830px){
     body{font-size:60%;}
     section{padding: 40px 0;}
     .btn,.btn:link{padding: 6px 18px;}
     .logo{height: 72px;}
-    .main-nav{display: none;}
+    
+    .mobile-nav-icon{display: inline-block;}
+    .main-nav {
+        float: left;
+        margin-top: 45px;
+        margin-left: 25px;
+    }
+    .main-nav li{display: block;}
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        border: 0;
+        display: block;
+        padding: 5px 0;
+        font-size: 130%;
+    }
+    
+    .sticky .main-nav{margin-top: 10px}
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+        padding: 5px 0;
+        font-size: 130%;
+    }
+    .sticky .mobile-nav-icon {margin-top: 10px;}
+    .sticky .mobile-nav-icon i {color: #555;}
+    
+    .sticky .logo{display: none;}
+    .sticky .logo-black{
+        display: block;
+    }
+    
+    
+    
     .section-features{margin-top: 0px;
     padding-bottom: 0;}
 
