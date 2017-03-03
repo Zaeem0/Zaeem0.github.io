@@ -49,7 +49,7 @@ margin: 5px 0;
 float: left;}
 
 .top{padding: 0 10%;}
-/* ------------------------------------STICKY-------------------------------*/
+/* ------------------------------------NAV-------------------------------*/
 
 .main-nav{float: right;
 list-style: none;
@@ -78,10 +78,25 @@ max-width: 100%;
 top: 45%;
 left: 10%;
 }
+/* ------------------------------------Mobile-NAV-------------------------------*/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 55px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 250%;
+    color: #FFF;
+}
 
 /* ------------------------------------STICKY-------------------------------*/
 
 .sticky{position: fixed;
+    -webkit-animation-duration: 2s;
+
+animation-duration: 2s;
 top: 0;
 left: 0;
 width: 100%;
@@ -578,4 +593,19 @@ color:#888;
     font-size:80%;
     margin-top: 60px;
     padding-bottom: 40px;
+}
+
+/*---animations----*/
+.js--wp-1,.js--wp-2,.js--wp-3 {
+    opacity: 0;
+    animation-duration: 0.8s;
+}
+
+.js--wp-4{
+    animation-duration: 0.8s;
+}
+
+.js--wp-1.animated,.js--wp-2.animated
+.js--wp-3.animated{
+    opacity: 1;
 }
