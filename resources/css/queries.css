@@ -93,11 +93,12 @@
     .main-nav {
         float: left;
         margin-top: 45px;
-        margin-left: 25px;
+        margin-left: 50%;
         display: none;
     }
     .main-nav li {
         display: block;
+		margin-left: 0;
     }
     .main-nav li a:link,
     .main-nav li a:visited {
@@ -232,6 +233,9 @@
         float: clear;
         width: 100%;
     }
+	.main-nav {
+        margin-left: 40%;
+    }
 }
 @media only screen and (max-width: 540px) {
     .footer-nav li {
@@ -244,7 +248,25 @@
     .back-to-top i {
         font-size: 30px;
     }
+	.main-nav {
+        margin-left: 30%;
+    }
 }
+
+@media only screen and (max-width: 400px) {
+    
+	.main-nav {
+        margin-left: 18%;
+    }
+    
+}
+
+@media only screen and (max-width: 380px) {
+    
+	.main-nav {
+        margin-left: 9%;
+    }
+
 @media only screen and (max-width: 370px) {
     .footer-nav li {
         display: block;
@@ -261,5 +283,9 @@
         width: 100%;
         text-align: center;
         margin: 0 auto;
+    }
+	
+	.main-nav {
+        margin-left: 3%;
     }
 }
