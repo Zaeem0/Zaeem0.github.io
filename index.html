@@ -2,38 +2,49 @@
 <html lang="en">
     <head>
            <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
-        
+
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/animate.css">
         <link rel="stylesheet" type="text/css" href="resources/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="resources/css/ionicons.min.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/grid.css"> 
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+        <link rel="stylesheet" type="text/css" href="resources/css/grid.css">
+
+
+        <meta charset = "utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Omnifood</title>
+
+
+		<link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+
+
+
+
     </head>
-    
+
     <body>
         <header>
             <nav>
                 <div class="row top">
                     <img src="resources/img/logo-white.png" alt="Omnifood" class="logo">
                     <img src="resources/img/logo.png" alt="Omnifood" class="logo-black">
-                        <ul class="main-nav">
+                        <ul class="main-nav js--main-nav" >
                             <li><a href="#features">Food delivery</a></li>
                             <li><a href="#works">How it works</a></li>
                             <li><a href="#cities">Our cities</a></li>
                             <li><a href="#plans">Sign up</a></li>
                         </ul>
+                        <a class="js--nav-icon mobile-nav-icon"><i class="ion-navicon-round"></i></a>
                 </div>
             </nav>
-            
+
             <div class="hero-text-box">
                  <h1>Goodbye junk food.<br> Hello super healthy meals.</h1>
         <a class="btn btn-full js--scroll-to-plans" href="#">I&#39;m hungry</a>
         <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
             </div>
-        
+
         </header>
         <section class="section-features js--section-features" id="features">
             <div class="row cleafix">
@@ -43,12 +54,12 @@
         </section>
 
 
-        <section class="section-text clearfix">
+        <section class="section-text clearfix js--wp-1">
             <div class="col span_1_of_4 box">
                 <i class="ion-ios-infinite-outline icon-big"></i>
                 <h3>Up to 365 days/year</h3>
                 <p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
-            </div> 
+            </div>
 
             <div class="col span_1_of_4 box">
                  <i class="ion-ios-stopwatch-outline icon-big"></i>
@@ -67,29 +78,29 @@
                  <i class="ion-ios-cart-outline icon-big"></i>
                 <h3>Order anything</h3>
                 <p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
-            </div>   
+            </div>
         </section>
 
         <section class="section-meals">
 
                 <ul class="meals-showcase clearfix">
                 <li>
-                    <figure class="meal-photo"> 
+                    <figure class="meal-photo">
                         <img src="resources/img/1.jpg" alt="korean bibimbap with egg and vegetables">
                     </figure>
                 </li>
                 <li>
-                    <figure class="meal-photo"> 
+                    <figure class="meal-photo">
                         <img src="resources/img/2.jpg" alt="Simple italian pizza with cherry tomatoe">
                     </figure>
                 </li>
                 <li>
-                    <figure class="meal-photo"> 
+                    <figure class="meal-photo">
                         <img src="resources/img/3.jpg" alt="Chicken breast steak with vegetables">
                     </figure>
                 </li>
                 <li>
-                    <figure class="meal-photo"> 
+                    <figure class="meal-photo">
                         <img src="resources/img/4.jpg" alt="Autumn pumpkin soup">
                     </figure>
                 </li>
@@ -97,23 +108,23 @@
 
                  <ul class="meals-showcase clearfix">
                   <li>
-                    <figure class="meal-photo"> 
+                    <figure class="meal-photo">
                         <img src="resources/img/5.jpg" alt="Paleo beef steak with vegetables">
                     </figure>
                   </li>
                 <li>
-                    <figure class="meal-photo"> 
+                    <figure class="meal-photo">
                         <img src="resources/img/6.jpg" alt="Healthy baguette with egg and vegetables">
                     </figure>
                   </li>
                 <li>
-                    <figure class="meal-photo"> 
+                    <figure class="meal-photo">
                         <img src="resources/img/7.jpg" alt="Burger with cheddar and bacon">
                     </figure>
                   </li>
 
                 <li>
-                    <figure class="meal-photo"> 
+                    <figure class="meal-photo">
                         <img src="resources/img/8.jpg" alt="Granola with cherries and strawberries">
                     </figure>
                   </li>
@@ -129,7 +140,7 @@
 
                 <div class="row clearfix">
                     <div class="col span_1_of_2 steps-box">
-                        <img src="resources/img/app-iPhone.png" class="app-screen" alt="Omnifood iphone">
+                        <img src="resources/img/app-iPhone.png" class="app-screen js--wp-2" alt="Omnifood iphone">
                     </div>
 
                     <div class="col span_1_of_2 steps-box">
@@ -149,8 +160,8 @@
                         <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
                         </div>
 
-                      <a href="#" class="btn-app "><img src="resources/img/Download_on_the_App_Store_Badge_US-UK_135x40.svg" alt="app store button"></a> 
-                                     <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="app store button"></a> 
+                      <a href="#" class="btn-app "><img src="resources/img/Download_on_the_App_Store_Badge_US-UK_135x40.svg" alt="app store button"></a>
+                                     <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="app store button"></a>
 
 
                     </div>
@@ -162,7 +173,7 @@
                 <h2>We're currently in these cities</h2>
                 </div>
 
-            <div class="row clearfix">
+            <div class="row clearfix js--wp-3">
 
                 <div class="col span_1_of_4 box">
                     <img src="resources/img/lisbon-3.jpg" alt="Lisbon">
@@ -271,13 +282,13 @@
         <section class="section-plans js--section-plans" id="plans">
 
         <div class="row clearfix">
-        <h2>Start eating healthy today</h2>    
+        <h2>Start eating healthy today</h2>
         </div>
 
         <div class="row clearfix">
             <!---->
             <div class="col span_1_of_3">
-                <div class="plan-box">
+                <div class="plan-box js--wp-4">
                 <!---->
                     <div>
                         <h3>Premium</h3>
@@ -302,7 +313,7 @@
             </div>
             <!---->
             <div class="col span_1_of_3">
-                <div class="plan-box">
+                <div class="plan-box js--wp-4">
                 <!---->
                     <div>
                         <h3>Pro</h3>
@@ -327,7 +338,7 @@
             </div>
             <!---->
             <div class="col span_1_of_3">
-                <div class="plan-box">
+                <div class="plan-box js--wp-4">
                 <!---->
                     <div>
                         <h3>Starter</h3>
@@ -358,11 +369,11 @@
             <div class="row clearfix">
             <h2>We're happy to hear from you</h2>
             </div>
-            
+
             <div class="row clearfix">
-                
+
             <form method="post" action="#" class="contact-form">
-                
+
                 <div class="row">
                     <div class="col span_1_of_3">
                         <label>Name</label>
@@ -371,7 +382,7 @@
                         <input type="text" name="name" id="name" placeholder="Enter your name" required>
                     </div>
                 </div>
-                
+
                 <div class="row">
                     <div class="col span_1_of_3">
                         <label>Email</label>
@@ -380,7 +391,7 @@
                         <input type="email" name="email" id="email" placeholder="Enter your email" required>
                     </div>
                 </div>
-                
+
                 <div class="row">
                     <div class="col span_1_of_3">
                         <label for="find-us">How did you find us</label>
@@ -394,7 +405,7 @@
                         </select>
                     </div>
                 </div>
-                
+
                 <div class="row clearfix">
                     <div class="col span_1_of_3">
                         Newsletter?
@@ -403,7 +414,7 @@
                         <label class="spam" for="news"><input type="checkbox" name="news" id="news" checked><span></span></label>
                     </div>
                 </div>
-                
+
                 <div class="row">
                     <div class="col span_1_of_3">
                         <label for="message">Drop us a line</label>
@@ -412,7 +423,7 @@
                         <textarea name="message" id="message" placeholder="Place your message here"></textarea>
                     </div>
                 </div>
-                
+
                 <div class="row">
                     <div class="col span_1_of_3">
                         <label>&nbsp;</label>
@@ -422,14 +433,14 @@
                     </div>
                 </div>
             </form>
-                
+
             </div>
         </section>
-        
+
         <footer>
             <div class="row clearfix">
-                <div class="col span_1_of_2">
-                    <ul class="footer-nav">
+                <div class="row clearfix footer-links">
+                    <ul class="footer-nav" id="footer-nav-links">
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Press</a></li>
@@ -437,22 +448,23 @@
                         <li><a href="#">Android App</a></li>
                     </ul>
                 </div>
-                
-                <div class="col span_1_of_2">
-                    <ul class="social-links">
-                        <li><a href='#'><i class="ion-social-facebook"></i></a></li>
-                        <li><a href='#'><i class="ion-social-twitter"></i></a></li>
-                        <li><a href='#'><i class="ion-social-googleplus"></i></a></li>
-                        <li><a href='#'><i class="ion-social-instagram"></i></a></li>
-                    </ul>
-                </div>
+
+                <ul class="social-links">
+                    <li><a href='#'><i class="ion-social-facebook"></i></a></li>
+                    <li><a href='#'><i class="ion-social-twitter"></i></a></li>
+                    <li><a href='#'><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href='#'><i class="ion-social-instagram"></i></a></li>
+                </ul>
             </div>
-            <div class="row clearfix">
+            <div class="row clearfix copyright">
                 <p>
                     Copyright &copy; 2016 &mdash; Zaeem Qadeer, All rights reserved
                 </p>
             </div>
         </footer>
+        <a href="#" class="back-to-top" >
+            <i class="ion-chevron-up"></i>
+        </a>
         <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
         <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
         <script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
@@ -460,5 +472,5 @@
         <script src="resources/js/script.js"></script>
         <script src="resources/js/jquery.waypoints.min.js"></script>
     </body>
-    
+
 </html>
