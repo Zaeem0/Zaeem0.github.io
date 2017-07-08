@@ -596,7 +596,10 @@ font-size:80%;
 background-color: #0f0f0f;
 padding:8px 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 footer .footer-links{
     padding: 50px 0 0 0;
     text-align: center;
@@ -618,6 +621,7 @@ footer .copyright{padding: 0;}
 .js--wp-3.animated{
     opacity: 1;
 }
+<<<<<<< HEAD
 
 
 
@@ -644,3 +648,5 @@ footer .copyright{padding: 0;}
 .back-to-top i {
   font-size: 45px;
 }
+=======
+>>>>>>> origin/master

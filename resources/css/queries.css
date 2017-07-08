@@ -42,6 +42,7 @@
 
 
 
+<<<<<<< HEAD
 @media (min-width: 850px) {
     .main-nav {display: block !important;}
 }
@@ -49,19 +50,28 @@
 
 
 @media only screen and (max-width:850px){
+=======
+@media only screen and (max-width:830px){
+>>>>>>> origin/master
     body{font-size:60%;}
     section{padding: 40px 0;}
     .btn,.btn:link{padding: 6px 18px;}
     .logo{height: 72px;}
     
+<<<<<<< HEAD
 
     
+=======
+>>>>>>> origin/master
     .mobile-nav-icon{display: inline-block;}
     .main-nav {
         float: left;
         margin-top: 45px;
         margin-left: 25px;
+<<<<<<< HEAD
         display: none;
+=======
+>>>>>>> origin/master
     }
     .main-nav li{display: block;}
     .main-nav li a:link,
