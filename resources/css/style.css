@@ -631,10 +631,9 @@ footer .copyright{padding: 0;}
     background: none;
     margin: 0;
     position: fixed;
-    bottom: 0;
+    bottom: 50vh;
     right: 0;
     padding: 0px 10px 0px 10px;
-    height: 50vh;
     z-index: 100;
     display: none;
     text-decoration: none;
