@@ -336,6 +336,11 @@ meals-showcase ul {
     width: auto;
     margin-right: 10px;
 }
+
+#apple{margin-top:40px;}
+
+.app-step{clear:both; text-align:right;}
+
 .btn-app:link,
 .btn-app:visited {
     border: none;

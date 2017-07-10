@@ -181,8 +181,9 @@
         margin-right: 10px;
         height: 36px;
         width: 36px;
-        padding: 7px;
+        padding: 8px;
     }
+	.app-step{text-align:left;}
     .steps-box:last-child {
         margin-top: 20px;
     }
@@ -276,7 +277,6 @@
     width: 26px;
     padding: 2px;
     }
-	.btn-app img{margin-top: 30px;}
 }
 
 
