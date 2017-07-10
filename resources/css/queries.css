@@ -278,9 +278,14 @@
 
 @media only screen and (max-width: 400px) {
     .works-step p{float:left;}
-	.works-step div{height: 26px;
-    width: 26px;
-    padding: 2px;
+	.works-step div{
+	    width: 26px;
+        height:26px;
+        border-radius:50%;
+        line-height:26px;
+        text-align:center;
+		padding: 0;
+     
     }
 }
 
