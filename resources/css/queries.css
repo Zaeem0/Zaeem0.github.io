@@ -181,7 +181,8 @@
         margin-right: 10px;
         height: 36px;
         width: 36px;
-        padding: 6.6px;
+        padding: 0;
+		line-height: 30px;
     }
 	.app-step{text-align:left;}
     .steps-box:last-child {
