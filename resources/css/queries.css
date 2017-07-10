@@ -87,6 +87,7 @@
     .logo {
         height: 72px;
     }
+	.hero-text-box{margin-top: 35px;}
     .mobile-nav-icon {
         display: inline-block;
         position: absolute;
