@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd700" />
+      <stop offset="50%" stop-color="#f0b800" />
+      <stop offset="100%" stop-color="#c8960c" />
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe566" />
+      <stop offset="100%" stop-color="#b8860b" />
+    </linearGradient>
+  </defs>
+  <!-- Handles -->
+  <path d="M18,28 Q4,34 10,50 Q14,58 22,54" fill="none" stroke="url(#gold)" stroke-width="5"
+    stroke-linecap="round" />
+  <path d="M82,28 Q96,34 90,50 Q86,58 78,54" fill="none" stroke="url(#gold)" stroke-width="5"
+    stroke-linecap="round" />
+  <!-- Cup body -->
+  <path d="M22,22 Q22,62 50,72 Q78,62 78,22 Z" fill="url(#gold)" stroke="#b8860b" stroke-width="1.5" />
+  <!-- Shine -->
+  <path d="M32,26 Q34,52 50,62" fill="none" stroke="#ffe88a" stroke-width="2.5"
+    stroke-linecap="round" opacity="0.6" />
+  <!-- Rim -->
+  <rect x="20" y="18" width="60" height="6" rx="3" fill="url(#rim)" stroke="#b8860b"
+    stroke-width="1" />
+  <!-- Stem -->
+  <rect x="44" y="72" width="12" height="10" rx="2" fill="url(#gold)" stroke="#b8860b"
+    stroke-width="1" />
+  <!-- Base -->
+  <rect x="32" y="82" width="36" height="7" rx="3.5" fill="url(#gold)" stroke="#b8860b"
+    stroke-width="1" />
+  <!-- Star on cup -->
+  <polygon points="50,34 52.5,41 60,41 54,46 56,53 50,49 44,53 46,46 40,41 47.5,41" fill="#ffe88a"
+    opacity="0.7" />
+</svg>
