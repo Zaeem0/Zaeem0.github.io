@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Cup 2026 Match Center</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-3J1S416K3Z"
-    ></script>
+    <!-- Google tag (gtag.js) - Only loads in production (not localhost) -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+      if (
+        window.location.hostname !== "localhost" &&
+        window.location.hostname !== "127.0.0.1"
+      ) {
+        const script = document.createElement("script");
+        script.async = true;
+        script.src = "https://www.googletagmanager.com/gtag/js?id=G-3J1S416K3Z";
+        document.head.appendChild(script);
 
-      gtag("config", "G-3J1S416K3Z");
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-3J1S416K3Z");
+      }
     </script>
 
     <meta
