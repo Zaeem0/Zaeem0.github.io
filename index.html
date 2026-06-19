@@ -5,33 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Cup 2026 Match Center</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <!-- Analytics - Only loads in production (not localhost) -->
+    <!-- Analytics - Disabled on localhost and for opted-out users (?noanalytics) -->
     <script>
       if (
         window.location.hostname !== "localhost" &&
         window.location.hostname !== "127.0.0.1"
       ) {
-        // GoatCounter
-        const gcScript = document.createElement("script");
-        gcScript.async = true;
-        gcScript.dataset.goatcounter =
-          "https://wc-2026-match-center.goatcounter.com/count";
-        gcScript.src = "//gc.zgo.at/count.js";
-        document.head.appendChild(gcScript);
-
-        // Google Analytics 4
-        const gaScript = document.createElement("script");
-        gaScript.async = true;
-        gaScript.src =
-          "https://www.googletagmanager.com/gtag/js?id=G-3J1S416K3Z";
-        document.head.appendChild(gaScript);
-
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-          dataLayer.push(arguments);
+        if (new URLSearchParams(window.location.search).has("noanalytics")) {
+          localStorage.setItem("analytics-optout", "1");
         }
-        gtag("js", new Date());
-        gtag("config", "G-3J1S416K3Z");
+
+        if (!localStorage.getItem("analytics-optout")) {
+          var gcScript = document.createElement("script");
+          gcScript.async = true;
+          gcScript.dataset.goatcounter =
+            "https://wc-2026-match-center.goatcounter.com/count";
+          gcScript.src = "//gc.zgo.at/count.js";
+          document.head.appendChild(gcScript);
+
+          var gaScript = document.createElement("script");
+          gaScript.async = true;
+          gaScript.src =
+            "https://www.googletagmanager.com/gtag/js?id=G-3J1S416K3Z";
+          document.head.appendChild(gaScript);
+
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+          gtag("config", "G-3J1S416K3Z");
+        }
       }
     </script>
 
